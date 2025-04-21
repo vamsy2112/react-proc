@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hello</title>
+  </head>
+  <body>
+    <div id="root">hello world!</div>
+
+    <script src="./App.js"></script>
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <!-- // this will only make your code reusable, minify, compressed, perfomace
+    related activities -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <!-- // this cdn is responsible to render your code into UI -->
+
+    <script>
+      console.log(React, ReactDOM); // prints JS Object
+    </script>
+
+    // JSX comes in : It is HTML LIKE structure
+
+    <script>
+      const demo = React.createElement(
+        "h1",
+        {
+          id: "heading",
+          className: "heading-class",
+          arialabelledBy: "abcd",
+          xyz: "abc",
+        },
+        [
+          React.createElement(
+            "p",
+            {
+              id: "paragraph-heading",
+              className: "heading-class-paragraph",
+            },
+            "Hello from react from paragraph"
+          ),
+          React.createElement(
+            "p",
+            {
+              id: "seconPra",
+              className: "second-para",
+            },
+            "second paragraph"
+          ),
+        ]
+      ); // this will create a tag for us
+
+      const root = ReactDOM.createRoot(document.getElementById("root")); // createRoot is nothing but a target where react content needs to render
+      root.render(demo); // render method is responsible for rendering the UI
+    </script>
+  </body>
+</html>
