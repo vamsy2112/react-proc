@@ -1,0 +1,25 @@
+{
+  "name": "react-prac",
+  "version": "1.0.0",
+  "description": "react practice by vamsy",
+  "main": "index.html",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vamsy2112/react-proc.git"
+  },
+  "author": "vamsy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vamsy2112/react-proc/issues"
+  },
+  "homepage": "https://github.com/vamsy2112/react-proc#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0"
+  }
+}
