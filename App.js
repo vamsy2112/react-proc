@@ -1,5 +1,13 @@
-// DOM- DOCUMNET OBJECT MODEL
-const heading = document.createElement("h1"); // creates a tag on the UI    <h1>Hello sourav</h1>
-heading.innerText = "Hello sourav from js!!"; // this line will be pushed in between the h1 tag
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-document.body.appendChild(heading); // this line is supposed to render our h1 tag on UI, it will add the content
+const AppContainer = () => {
+  return (
+    <div>
+      <h1>App component from app.js</h1>
+    </div>
+  );
+};
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<AppContainer />);

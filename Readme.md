@@ -38,3 +38,8 @@ Diff algo
 Hot module replacement (HMR)
 parcel-cache folder will include binary convereted code
 converts our entire code to an js object by mapping the files => to minify our code, compress our code, removing unnecessary code
+
+Components
+
+1. func - simple js function of creating a component
+2. class - baad mein dekhenge
