@@ -1,13 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const AppContainer = () => {
+import Navbar from "./src/Navbar/Navbar";
+import Search from "./src/Search/Search"; // Importing the Search component
+
+const App = () => {
   return (
     <div>
-      <h1>App component from app.js</h1>
+      <Navbar />
+      <Search />
     </div>
   );
 };
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<AppContainer />);
+const root = ReactDOM.createRoot(document.getElementById("root")); // it targets the element with id="root" in the DOM
+
+root.render(<App />); // this will render our react component between the element fetched

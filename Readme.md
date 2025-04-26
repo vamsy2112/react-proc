@@ -23,7 +23,10 @@ go through the articles on Parcel
 
 files which can be re generated, NOT to be pushed into git
 
+===============================================================
+
 The third
+
 diff between library and framework
 npm and npx
 how to start our app through a script obj
@@ -39,7 +42,23 @@ Hot module replacement (HMR)
 parcel-cache folder will include binary convereted code
 converts our entire code to an js object by mapping the files => to minify our code, compress our code, removing unnecessary code
 
+=========================================================================================
+
+The fourth
+
 Components
 
 1. func - simple js function of creating a component
-2. class - baad mein dekhenge
+
+naming convention of func component
+folder structure standards
+linking css to jsx
+
+HM: INLINE STYLE IN REACT, BUILD NAVBAR OF TRELLO
+
+whenever you import a css file, make sure you import it inside its own component jsx file
+component reusability - React
+
+component rendering with or without return keyword
+
+built on dummy navbar
