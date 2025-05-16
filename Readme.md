@@ -1,4 +1,4 @@
-The second
+# The second
 
 Bundlers from react version 18 instead of CRA
 
@@ -25,7 +25,7 @@ files which can be re generated, NOT to be pushed into git
 
 ===============================================================
 
-The third
+# The third
 
 diff between library and framework
 npm and npx
@@ -44,7 +44,7 @@ converts our entire code to an js object by mapping the files => to minify our c
 
 =========================================================================================
 
-The fourth
+# The fourth
 
 Components
 
@@ -62,3 +62,34 @@ component reusability - React
 component rendering with or without return keyword
 
 built on dummy navbar
+
+==============================================================
+
+# The fifth
+
+- component kaise bnana h? a func comp
+- shimmer effect
+- End result:
+
+1. api call, swiggy card, depending on API, how the res cards get generated.
+
+- props - short of properties - which are an additional info to our component.
+- explore diff datatypes of props
+- props: first we go to the place where our comp is being called. we define props there and pass it to the comp as a parameter.
+- either write props as a parameter then props.name, props.age
+- destructure the props and access them as individual consts
+
+- State in react
+- counter machine - count , incre, decre, reset
+- named imports
+- state in practice
+- event handling
+
+- HW:
+
+1. counter machine - increament/decrement by 5
+2. hint: explore about prevCount as a parameter
+3. explore diff datatypes of props
+4. make a habit of reading MDN docs
+5. git mein jo commit kr rhe ho, Readme.md bnao and try to lean its features !!!!!!
+6. config driven UI
