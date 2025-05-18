@@ -93,3 +93,24 @@ built on dummy navbar
 4. make a habit of reading MDN docs
 5. git mein jo commit kr rhe ho, Readme.md bnao and try to lean its features !!!!!!
 6. config driven UI
+
+# The sixth
+
+- props are just additionnal data which is used to pass from parent to child comp.
+- in react, the data flows in uni directional way. parent to child
+- api calls with useEffect hook
+- async await
+- // fetch is a function, fetch(endpoint), always returns a promise.
+-     // promise -:
+-     // 1. pending - loading
+- /// 2. resolve - data
+- // 3. reject - error screen, js is a single threaded synchronysly typed programming lang
+- // asynchronous operations
+- // event loop - async operations perform hota h
+- // await can only be used with async
+- // global and block scope
+
+- const [name, setName] = useState('')
+- useEffect(() ={
+- // api code
+- }, [])
